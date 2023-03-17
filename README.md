@@ -41,6 +41,7 @@ Most of these are self explanatory but, here are some of the docs i've written f
 If you're getting yaml errors put your config in https://jsonformatter.org/yaml-formatter
 
  **• customRates**
+
 List of items/demands that have specific rates attached to them. You can set rates to demands, specific rates (as IDS),
 and add conditions to these rates. If you were to do ["Normal > value", 2] all valued items with a normal demand would
 be bought if sold at or below a rate of 2$/1$, rap/value conditions can be added to specific item rates if you're scared it might get devalued.
@@ -52,17 +53,22 @@ customRates:
 ```
 
 **• projecteds > revaluedProjecteds**
+
 A bool (true/false), if set to false it won't revalue projecteds with my server's value of them, opposite will happen if set to true.
 
 **• projecteds > ignore**
+
 A bool (true/false), if set to false it won't consider projecteds AT ALL, opposite will happen if set to false.
 
 **• gerneralRates**
+
 Rates for rap/value items that'll be used if there are no custom rates set for them or their demand.
 
 **• doNotSnipe**
+
 Items (by item IDs) or item types that the bot wont consider buying for you.
 
 # Commands
+
 /help under @BM-Wrapped will give you a full list of the bot's commands and their descriptions, I won't be writing docs for each of them.
 
