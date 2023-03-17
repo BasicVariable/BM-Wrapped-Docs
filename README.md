@@ -65,3 +65,4 @@ Items (by item IDs) or item types that the bot wont consider buying for you.
 
 # Commands
 /help under @BM-Wrapped will give you a full list of the bot's commands and their descriptions, I won't be writing docs for each of them.
+
