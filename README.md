@@ -44,7 +44,7 @@ If you're getting yaml errors put your config in https://jsonformatter.org/yaml-
 
 List of items/demands that have specific rates attached to them. You can set rates to demands, specific rates (as IDS),
 and add conditions to these rates. If you were to do ["Normal > value", 2] all valued items with a normal demand would
-be bought if sold at or below a rate of 2$/1$, rap/value conditions can be added to specific item rates if you're scared it might get devalued.
+be bought if sold at or below a rate of 2$/1k, rap/value conditions can be added to specific item rates if you're scared it might get devalued.
 EX:
 ```
 customRates:
