@@ -3,8 +3,8 @@ Documentation for everything bm-wrapped, by https://discord.gg/callie
 
 **• Snipe balancer**
 
-When BM-Wrapped gets a snipe, it'll cycle through the list of users with functioning flipTokens and check who would want the deal. 
-The user closest to the top of the (purchase) queue will get the snipe, if the snipe is successful they'll be moved to the bottom of the queue.
+When BM-Wrapped finds a snipe, it'll cycle through the list of users with functioning flipTokens and check who would want the deal. 
+The user closest to the bottom of the (purchase) queue, the user with less value sniped, will get the snipe. If the snipe is successful they'll have their totalSnipeValue increased which will make them less likely to get the snipe. This distributes snipes equally between users and is why having a good config is important (you won't always get the coolest 1.3/1k snipe).
 
 **• Tutorial**
 ```
