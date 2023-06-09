@@ -68,6 +68,10 @@ Rates for rap/value items that'll be used if there are no custom rates set for t
 
 Items (by item IDs) or item types that the bot wont consider buying for you.
 
+**autoResell**
+
+Removing this section from the config will prevent the bot from automatically listing your items.
+
 **• autoResell > autoValue**
 
 Will get recent legitimate sales and averages them to get a resell value, will ignore if it comes out lower than the purchase rate + minimumProfit
