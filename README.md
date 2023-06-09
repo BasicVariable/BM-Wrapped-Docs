@@ -68,6 +68,18 @@ Rates for rap/value items that'll be used if there are no custom rates set for t
 
 Items (by item IDs) or item types that the bot wont consider buying for you.
 
+**• autoResell > autoValue**
+
+Will get recent legitimate sales and averages them to get a resell value, will ignore if it comes out lower than the purchase rate + minimumProfit
+
+**• autoResell > minimumProfit**
+
+Will ignore the set manualResell rate and autovalue rate if the profit (by rate) is less than whatever you set minimumProfit to.
+
+**• autoResell > manualValues**
+
+Mixture of general rates and customrates (just called customResell), please look at the custom rates section when configuring customResell, rap/value settings are just the rates you'd like the bot to list rap/value items. **WARNING:** be sure to set rap/value higher than normal, it's bad to generalized items, some rap items can sell for 2.4+; you'll be able to change the listing rate through the bot embed if you don't like it!
+
 # Commands
 
 /help under @BM-Wrapped will give you a full list of the bot's commands and their descriptions, I won't be writing docs for each of them.
